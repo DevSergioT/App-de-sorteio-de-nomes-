@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+body {
+  background: #eeeeee;
+}
+
+header {
+  background: #01164e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.875rem;
+}
+
+header img {
+  width: 9.30rem;
+}
+
+header h1 {
+  color: #ffff;
+  margin-left: 1rem;
+  font-weight: 700;
+}
+
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 31.25rem;
+}
+
+section {
+  background: #ffff;
+  box-shadow: 5px 5px 5px #808080;
+  padding: 1.88rem;
+  width: 37.5rem;
+  color: #5b5a5a;
+  text-align: center;
+  overflow: hidden;
+  position: relative;
+}
+
+section h2 {
+  font-weight: 400;
+}
+
+section p {
+  margin: 10px 0;
+}
+
+.textleft {
+  text-align: left;
+}
+
+section label {
+  display: none;
+}
+
+section textarea {
+  display: block;
+  padding: 0.63rem;
+  width: 100%;
+  height: 9.38rem;
+  max-width: 100%;
+  min-width: 100%;
+  max-height: 9.38rem;
+  min-width: 9.38rem;
+  font-size: 1rem;
+}
+
+section button:hover {
+  box-shadow: #01164e 0 22px 18px -13px;
+  background: #022174;
+}
+
+section button {
+  background: #0358b9;
+  color: #ffff;
+  border: none;
+  text-transform: uppercase;
+  padding: 0.63rem;
+  font-weight: 700;
+  cursor: pointer;
+  margin-top: 10px;
+  border-radius: 5px;
+  width: 20%;
+  letter-spacing: 0.1em;
+  transition: 1s;
+}
+
+.results {
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: rgb(4 20 62 / 89%);
+  transition: 0.5s;
+}
+
+.results.showresult {
+  left: 0;
+  transition: 0.5s;
+}
+
+.results span {
+  float: right;
+  margin: 1.25rem;
+  color: #ffff;
+  font-size: 1.9rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  border: solid #ffff 2px;
+  border-radius: 100%;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.results p {
+  text-align: center;
+  color: #ffff;
+  font-size: 1.87rem;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+footer {
+  height: 25rem;
+  background-image: url("./../imagens/fundo-rodape.png");
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  padding-bottom: 2rem;
+}
+
+footer img {
+  border-radius: 50px;
+  width: 3rem;
+  border: 0.2rem solid #ffff;
+
+}
+
+footer a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer span {
+  text-decoration: none;
+  color: #eeeeee;
+  padding-left: 0.5rem;
+}
