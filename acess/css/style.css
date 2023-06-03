@@ -6,8 +6,14 @@
   font-family: 'Roboto Condensed', sans-serif;
 }
 
+:root {
+  font-size: 16px;
+}
+
 body {
   background: #eeeeee;
+  width: 100%;
+  height: 100%;
 }
 
 header {
@@ -84,12 +90,11 @@ section button {
   color: #ffff;
   border: none;
   text-transform: uppercase;
-  padding: 0.63rem;
+  padding: 0.63rem 2rem;
   font-weight: 700;
   cursor: pointer;
   margin-top: 10px;
   border-radius: 5px;
-  width: 20%;
   letter-spacing: 0.1em;
   transition: 1s;
 }
@@ -136,7 +141,7 @@ section button {
 }
 
 footer {
-  height: 25rem;
+  height: 20rem;
   background-image: url("./../imagens/fundo-rodape.png");
   background-size: cover;
   background-attachment: fixed;
@@ -163,4 +168,41 @@ footer span {
   text-decoration: none;
   color: #eeeeee;
   padding-left: 0.5rem;
+}
+
+@media screen and (max-width: 672px) {
+  header img {
+    width: 2.4rem;
+  }
+
+  header h1 {
+    font-size: 1.5rem;
+  }
+
+  .app {
+    width: 90%;
+    margin: 1rem;
+  }
+
+  .results span {
+    font-size: 1.4rem;
+    width: 2rem;
+    height: 2rem;
+  }
+
+  .results p {
+    width: 100%;
+    font-size: 1.5rem;
+  }
+
+  footer {
+    height: 10rem;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .results p {
+    align-items: center;
+  }
 }

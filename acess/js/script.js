@@ -26,7 +26,7 @@ function gerarNumeroAleatorio(tamanhoArray) {
 
 function mostrarResultado(nome) {
 
-  tagResult.innerText = `O nome sorteado foi: ${nome}`
+  tagResult.innerText = `Parabéns  ${nome}, você foi sorteado!`
   popUpResults.classList.add("showresult")
 
 }
