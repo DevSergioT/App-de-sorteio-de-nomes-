@@ -1,22 +1,14 @@
 ### APP DE SORTEIO DE NOMES ###
 
 <p align = "center">
-<br/>
-<spam>Home<spam/>
-<br/>
+**Home**
 <img src= "./github/app sorteio home.png"/>
-<br/>
-<spam>Nomes a serem sorteados<spam/>
-<br/>
+**Nomes a serem sorteados**
 <img src= "./github/app sorteio nomes.png "/>
-<br/>
-<spam>Nome sorteado<spam/>
-<br/>
+**Nome sorteado**
 <img src= "./github/app sorteio sorteado.png"/>
-<br/>
-<spam>Link no footer que direciona o usuário a outra página<spam/>
-<br/>
-<img src= "./github/app sorteio footer.png"/>
+**Link no footer que direciona o usuário a outra página**
+<img src= "./github/app sorteio footer.png" width = "100"/>
 </p>
 
 ## Projeto 👨‍💻 
