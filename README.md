@@ -8,7 +8,7 @@
 ![Home do app](./github/app%20sorteio%20home.png)
 
 ___
-<h2 align = "center">------------- Nomes a serem sorteados ------------ </h2>
+<h2 align = "center">-------------Nomes a serem sorteados ----------- </h2>
 
 <br/>
 
