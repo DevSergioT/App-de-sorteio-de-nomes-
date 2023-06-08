@@ -39,6 +39,6 @@ Projeto realizado em um evento da Kenzie Academy onde foi utilizada as seguintes
 - CSS3
 - JAVASCRIPT
  
- ## Layout 🚀
+ ## Link do projeto 🚀
 
- 
+ [Aqui o link do projeto]( https://devsergiot.github.io/App-de-sorteio-de-nomes-/)
