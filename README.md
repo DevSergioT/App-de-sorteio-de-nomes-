@@ -8,19 +8,19 @@
 ![Home do app](./github/app%20sorteio%20home.png)
 
 ___
-<h2 align = "center">------------- Nomes a serem sorteados ------------ </h2>
+<h2 align = "center">-------- Nomes a serem sorteados -------- </h2>
 
 <br/>
 
 ![Nomes a serem sorteados](./github/app%20sorteio%20nomes.png)
 ___
-<h2 align = "center">----------- Nome sorteado ------------</h2>
+<h2 align = "center">--------- Nome sorteado ----------</h2>
 
 <br/>
 
 ![Nome sorteado](./github/app%20sorteio%20sorteado.png)
 ___
-<h2 align = "center">------------ Link para outra página  ------------</h2>
+<h2 align = "center">--------- Link para outra página --------</h2>
 
 <br/>
 
