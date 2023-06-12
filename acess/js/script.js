@@ -11,9 +11,21 @@ function formData() {
   const tamanhoArray = listaNomes.length
   const posicaoNome = gerarNumeroAleatorio(tamanhoArray)
   const nome = listaNomes[posicaoNome]
-  mostrarResultado(nome)
 
-  textarea.value = ""
+  if (valorCampo === "") {
+    Swal.fire({
+      icon: 'warning',
+      title: 'Ops...!',
+      text: 'É necessário colocar os nomes. Separados por virgula!',
+      //footer: '<a href="">Why do I have this issue?</a>'
+      color: "#f10606",
+      background: '#f2eded'
+    })
+  } else {
+    mostrarResultado(nome)
+    textarea.value = ""
+  }
+
 }
 //ADICIONANDO EVENTO DE CLICK NO BOTÃO E EXECUTANDO A FUNÇÃO
 btnSortear.addEventListener("click", formData)

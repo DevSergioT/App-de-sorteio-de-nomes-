@@ -34,6 +34,17 @@ header h1 {
   font-weight: 700;
 }
 
+.swal2-styled.swal2-confirm {
+  color: #f4f4f4;
+  background-color: #f40505;
+  padding: 0.4em 2em;
+}
+
+.swal2-icon.swal2-warning {
+  color: #c80707;
+  border-color: #f40505;
+}
+
 .app {
   display: flex;
   justify-content: center;
